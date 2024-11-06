@@ -1,5 +1,5 @@
 {% set name = "rq_scheduler" %}
-{% set version = "0.13.1" %}
+{% set version = "0.14.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rq-scheduler-{{ version }}.tar.gz
-  sha256: 89d6a18f215536362b22c0548db7dbb8678bc520c18dc18a82fd0bb2b91695ce
+  sha256: 2d5a14a1ab217f8693184ebaa1fe03838edcbc70b4f76572721c0b33058cd023
 
 build:
   entry_points:
